@@ -1,0 +1,21 @@
+---js
+const eleventyNavigation = {
+  key: "Photos",
+  order: 3
+};
+---
+<h1>Photos</h1>
+
+{% set postslist = collections.posts %}
+<ol reversed class="photolist">
+{% for post in postslist | reverse %}
+  {%- if post.data.image %}
+  <li class="photolist-item">
+    <a href="{{ post.url }}">
+      <img src="{{ post.data.image }}" alt>
+      {{ post.data.title }}
+    </a>
+  </li>
+  {%- endif %}
+{% endfor %}
+</ol>

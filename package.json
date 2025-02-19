@@ -1,0 +1,24 @@
+{
+  "name": "alan.pizza-11ty",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "develop": "npx @11ty/eleventy --serve --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Alanaktion/alan.pizza.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "luxon": "^3.5.0",
+    "zod": "^3.23.8",
+    "zod-validation-error": "^3.3.1"
+  }
+}

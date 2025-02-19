@@ -1,0 +1,32 @@
+---js
+// <script>
+const eleventyNavigation = {
+  key: "Home",
+  order: 1
+};
+
+const pagination = {
+  data: "collections.posts",
+  size: 10,
+  alias: "posts",
+  reverse: true,
+};
+---
+{% for post in posts %}
+{% set title = post.data.title %}
+{% set tags = post.data.tags %}
+{% set content = post.content %}
+{% include "post.njk" %}
+{% endfor %}
+
+{# TODO: infinite scrolling #}
+<script type="application/json" data-infinite>
+{{ pagination.links | json | safe }}
+</script>
+{%- js %}{% include "public/js/infinite.js" %}{% endjs %}
+
+{%- if pagination.next %}
+<a href="{{ pagination.nextPageHref }}" data-infinite="hide">
+  View older posts &rsaquo;
+</a>
+{%- endif %}

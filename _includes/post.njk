@@ -1,0 +1,17 @@
+<article class="post">
+  <div class="post-content">
+    <header class="post-header">
+      <h1><a href="{{ post.url }}">{{ title }}</a></h1>
+
+      <ul class="post-metadata">
+        <li><time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></li>
+        {%- for tag in tags | filterTagList %}
+        {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+        <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+        {%- endfor %}
+      </ul>
+    </header>
+
+    {{ content | safe }}
+  </div>
+</article>

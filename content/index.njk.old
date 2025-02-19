@@ -1,0 +1,17 @@
+---js
+const eleventyNavigation = {
+  key: "Home",
+  order: 1
+};
+
+const numberOfLatestPostsToShow = 10;
+---
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% for post in postslist | reverse %}
+{% set title = post.data.title %}
+{% set tags = post.data.tags %}
+{% set content = post.content %}
+{% include "post.njk" %}
+{% endfor %}
+
+<p>More posts can be found in <a href="blog.njk">the archive</a>.</p>

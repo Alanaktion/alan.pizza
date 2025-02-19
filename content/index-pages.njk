@@ -1,0 +1,18 @@
+---js
+// <script>
+const pagination = {
+  data: "collections.posts",
+  size: 10,
+  alias: "posts",
+  reverse: true,
+};
+
+const eleventyExcludeFromCollections = true;
+const layout = false;
+---
+{% for post in posts %}
+{% set title = post.data.title %}
+{% set tags = post.data.tags %}
+{% set content = post.content %}
+{% include "post.njk" %}
+{% endfor %}

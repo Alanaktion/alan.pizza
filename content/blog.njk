@@ -1,0 +1,19 @@
+---js
+const eleventyNavigation = {
+  key: "Archive",
+  order: 2
+};
+---
+<h1>Archive</h1>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
+
+{# List every content page in the project #}
+{#
+<ul>
+  {%- for entry in collections.all %}
+  <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+  {%- endfor %}
+</ul>
+#}

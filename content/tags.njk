@@ -1,0 +1,16 @@
+<h1>Categories</h1>
+<ul>
+{% for tag in ["dine-in", "frozen", "take-and-bake", "take-out"] %}
+  {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
+<h1>Tags</h1>
+
+<ul>
+{% for tag in collections | getKeys | filterTagList(false) %}
+  {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>

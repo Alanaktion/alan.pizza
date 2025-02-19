@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or metadata.title }}</title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="icon" href="/img/icon.webp" type="image/webp">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/png">
+    <link rel="alternate" href="/feed/index.xml" type="application/atom+xml" title="{{ metadata.title }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    {%- css %}{% include "public/css/index.css" %}{% endcss %}
+    <style>{% getBundle "css" %}</style>
+    <script async defer>{% getBundle "js" %}</script>
+  </head>
+  <body>
+    <a href="#skip" class="visually-hidden">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="home-link">{{ metadata.title }}</a>
+        <nav>
+          <h2 class="visually-hidden">Top level navigation menu</h2>
+          <ul class="nav">
+          {%- for entry in collections.all | eleventyNavigation %}
+            <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+          {%- endfor %}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-content" id="skip">
+      <div class="container" id="content">
+        {{ content | safe }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <i>&copy; {% currentYear %}</i> |
+          <i>Built with <a href="https://www.11ty.dev/" target="_blank">Eleventy</a></i>
+        </p>
+      </div>
+    </footer>
+
+    <!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
+  </body>
+</html>
