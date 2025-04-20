@@ -1,5 +1,5 @@
 ---
-title: Digiornio Thin & Crispy Three Meat
+title: Digiorno Thin & Crispy Three Meat
 date: 2017-03-21
 tags: ["frozen", "digiorno"]
 ---
