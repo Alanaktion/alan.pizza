@@ -1,0 +1,9 @@
+<label class="visually-hidden" for="searchField">Search</label>
+<input type="search" placeholder="Search..." id="searchField" />
+<div id="noResultsFound" style="display: none">
+  <p>No results found.</p>
+</div>
+{%- js %}
+{% include "node_modules/elasticlunr/release/elasticlunr.min.js" %}
+{% include "public/js/search.js" %}
+{% endjs %}

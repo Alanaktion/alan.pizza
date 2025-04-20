@@ -1,4 +1,5 @@
 import { DateTime } from "luxon";
+import elasticlunr from "elasticlunr";
 
 const categories = ["dine-in", "frozen", "take-and-bake", "take-out"]
 
@@ -46,4 +47,24 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("json", target => {
     return JSON.stringify(target);
   });
+
+  eleventyConfig.addFilter("search", async collection => {
+    // what fields we'd like our index to consist of
+    var index = elasticlunr(function () {
+      this.addField("title");
+      this.addField("tags");
+      this.setRef("id");
+    });
+
+    // loop through each page and add it to the index
+    collection.forEach(page => {
+      index.addDoc({
+        id: page.url,
+        title: page.data.title,
+        tags: page.data.tags,
+      });
+    });
+
+    return index.toJSON();
+  })
 };
