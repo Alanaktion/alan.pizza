@@ -1,21 +1,18 @@
-(function (window, document) {
-  "use strict";
+"use strict";
 
-  let noResultsEl;
-  let postlist;
-  document.addEventListener('DOMContentLoaded', () => {
-    noResultsEl = document.getElementById("noResultsFound");
-    postlist = document.querySelector('.postlist');
-  });
+document.addEventListener('DOMContentLoaded', () => {
+  const noResultsEl = document.getElementById("noResultsFound");
+  const postlist = document.querySelector('.postlist');
+  const searchField = document.getElementById("searchField");
 
   const search = (e) => {
-    const results = window.searchIndex.search(e.target.value, {
+    const results = window.searchIndex.search(searchField.value, {
       bool: "OR",
       expand: true,
     });
 
     const items = postlist.querySelectorAll('.postlist-item');
-    if (!e.target.value.length) {
+    if (!searchField.value.length) {
       noResultsEl.style.display = "none";
       items.forEach(item => {
         item.style.display = null;
@@ -35,7 +32,7 @@
       });
     } else {
       noResultsEl.style.display = "block";
-      links.forEach(element => {
+      links.forEach(item => {
         item.style.display = "none";
       });
     }
@@ -44,7 +41,8 @@
   fetch("/search-index.json").then(response =>
     response.json().then(rawIndex => {
       window.searchIndex = elasticlunr.Index.load(rawIndex);
-      document.getElementById("searchField").addEventListener("input", search);
+      searchField.addEventListener("input", search);
+      search();
     })
   );
-})(window, document);
+});

@@ -1,9 +1,10 @@
 :root {
   --font-emoji: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-family: 'Noto Serif', 'Georgia', 'Cambria', ui-serif, serif, var(--font-emoji);
-  --font-family-display: 'Playfair Display', 'Noto Serif Display', var(--font-family);
+  --font-family-display: 'Hoefler Text', 'Playfair Display', 'Noto Serif Display', var(--font-family);
 
   --text-color: #1c1c1c;
+  --text-color-muted: #5c5856;
   --muted-color: #e0e0e0;
   --background-color: #fff;
   --body-background-color: #f7f3f0;
@@ -15,6 +16,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #dad8d8;
+    --text-color-muted: #aba6a5;
     --muted-color: #526979;
     --background-color: #1d2833;
     --body-background-color: #12181f;
@@ -61,16 +63,23 @@ body {
   width: 1px;
 }
 
-/* h1, h2, h3 {
-  font-family: var(--font-family-display);
-} */
-
 p {
   line-height: 1.5;
   margin: 0 0 1em;
 }
 p:last-child {
-  margin-bottom: 0;
+  margin-block-end: 0;
+}
+
+h1:has(+ .subheading) {
+  margin-block-end: 0.25em;
+}
+.subheading {
+  font-style: italic;
+  color: var(--text-color-muted);
+}
+h1 + .subheading {
+  margin-block-end: 2em;
 }
 
 li {
@@ -89,13 +98,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-grid {
+  display: grid;
+  column-gap: 2em;
+  row-gap: 1em;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+}
+.img-grid-4\/3 img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+@media (min-width: 900px) {
+  .img-grid {
+    column-gap: 2.5em;
+  }
+}
 
 .container {
   padding: 0 1em;
 }
 @media (min-width: 900px) {
   .container {
-    width: 800px;
+    width: calc(800px + 1em);
     margin: 0 auto;
   }
 }
@@ -126,11 +150,11 @@ img {
 }
 @media (min-width: 900px) {
   .post {
-    margin-bottom: 3em;
+    margin-block-end: 3em;
   }
 }
 .post-header {
-  margin-bottom: 1em;
+  margin-block-end: 1em;
 }
 .post-header :link:not(:hover) {
   text-decoration: none;
@@ -283,4 +307,19 @@ img {
   grid-template-columns: repeat(2, minmax(0,1fr));
   list-style: none;
   padding: 0;
+}
+.container:has(.photolist) {
+  padding: 0;
+}
+@media (min-width: 1280px) {
+  .container:has(.photolist) {
+    width: 1232px;
+  }
+  .photolist {
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+}
+.photolist img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
