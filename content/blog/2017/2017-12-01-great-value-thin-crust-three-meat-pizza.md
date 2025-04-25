@@ -2,6 +2,7 @@
 title: Great Value Thin Crust Three Meat Pizza
 date: 2017-12-01
 tags: ["frozen", "great-value"]
+image: /blog/2017/img/IMG_20171201_195523-1024x768.jpg
 ---
 ![](/blog/2017/img/IMG_20171201_195523-1024x768.jpg)
 

@@ -2,6 +2,7 @@
 title: Digiorno Stuffed Crust Pepperoni… again
 date: 2017-05-02
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_1497-e1493773999698-1024x719.jpg
 ---
 ![](/blog/2017/img/DSC_1497-e1493773999698-1024x719.jpg)
 

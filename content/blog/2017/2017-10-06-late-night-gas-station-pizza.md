@@ -2,6 +2,7 @@
 title: Late-night Gas Station Pizza
 date: 2017-10-06
 tags: ["take-out"]
+image: /blog/2017/img/DSC_3681-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_3681-1024x678.jpg)
 

@@ -2,6 +2,7 @@
 title: DiGiorno Cheese Stuffed Crust Pepperoni – Personal Size
 date: 2017-08-08
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_2373-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2373-1024x678.jpg)
 

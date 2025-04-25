@@ -2,6 +2,7 @@
 title: Pizza Pie Cafe – Pumpkin Dessert Pizza
 date: 2017-11-09
 tags: ["dine-in", "pizza-pie-cafe"]
+image: /blog/2017/img/MVIMG_20171109_124016-1024x768.jpg
 ---
 ![](/blog/2017/img/MVIMG_20171109_124016-1024x768.jpg)
 

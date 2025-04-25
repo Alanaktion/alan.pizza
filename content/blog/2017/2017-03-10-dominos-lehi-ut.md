@@ -2,6 +2,7 @@
 title: Domino's – Lehi, UT
 date: 2017-03-10
 tags: ["take-out", "dominos"]
+image: /blog/2017/img/DSC_1318-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1318-1024x678.jpg)
 

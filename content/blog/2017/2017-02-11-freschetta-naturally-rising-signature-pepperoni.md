@@ -2,6 +2,7 @@
 title: Freschetta Naturally Rising Signature Pepperoni
 date: 2017-02-11
 tags: ["frozen", "freschetta"]
+image: /blog/2017/img/DSC_1113.jpg
 ---
 ![](/blog/2017/img/DSC_1113.jpg)
 

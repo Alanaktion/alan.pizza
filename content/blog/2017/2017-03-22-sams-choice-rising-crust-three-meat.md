@@ -2,6 +2,7 @@
 title: Sam's Choice Rising Crust Three Meat
 date: 2017-03-22
 tags: ["frozen", "sams-choice"]
+image: /blog/2017/img/DSC_1407-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1407-1024x678.jpg)
 

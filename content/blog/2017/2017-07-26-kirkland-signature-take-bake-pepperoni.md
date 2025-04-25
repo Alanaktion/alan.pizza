@@ -2,6 +2,7 @@
 title: Kirkland Signature Take & Bake Pepperoni
 date: 2017-07-26
 tags: ["take-and-bake", "kirkland-signature"]
+image: /blog/2017/img/DSC_2347-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2347-1024x678.jpg)
 

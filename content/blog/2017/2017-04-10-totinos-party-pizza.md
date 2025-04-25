@@ -2,6 +2,7 @@
 title: Totinos Party Pizza
 date: 2017-04-10
 tags: ["frozen", "totinos"]
+image: /blog/2017/img/DSC_1445-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1445-1024x678.jpg)
 

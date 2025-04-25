@@ -2,6 +2,7 @@
 title: National Pizza Day!
 date: 2017-02-09
 tags: ["take-out", "pizza-hut"]
+image: /blog/2017/img/DSC_1097.jpg
 ---
 ![](/blog/2017/img/DSC_1097.jpg)
 

@@ -2,6 +2,7 @@
 title: Red Baron Classic Crust Pepperoni
 date: 2017-06-05
 tags: ["frozen", "red-baron"]
+image: /blog/2017/img/DSC_1651-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1651-1024x678.jpg)
 

@@ -2,6 +2,7 @@
 title: Churro Pizza – Pizza Pie Cafe
 date: 2017-05-01
 tags: ["dine-in", "pizza-pie-cafe"]
+image: /blog/2017/img/20170501_124531-1024x768.jpg
 ---
 ![](/blog/2017/img/20170501_124531-1024x768.jpg)
 

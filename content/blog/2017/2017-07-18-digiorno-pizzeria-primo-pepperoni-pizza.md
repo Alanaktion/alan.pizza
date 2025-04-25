@@ -2,6 +2,7 @@
 title: Digiorno Pizzeria Primo Pepperoni Pizza
 date: 2017-07-18
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_2229-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2229-1024x678.jpg)
 

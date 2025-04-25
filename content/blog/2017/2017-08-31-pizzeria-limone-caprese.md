@@ -2,6 +2,7 @@
 title: Pizzeria Limone – Caprese
 date: 2017-08-31
 tags: ["dine-in", "pizzeria-limone"]
+image: /blog/2017/img/20170830_125307-1024x768.jpg
 ---
 ![](/blog/2017/img/20170830_125307-1024x768.jpg)
 

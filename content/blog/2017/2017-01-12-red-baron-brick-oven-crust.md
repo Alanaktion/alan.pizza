@@ -2,6 +2,7 @@
 title: Red Baron Brick Oven Crust
 date: 2017-01-12
 tags: ["frozen", "red-baron"]
+image: /blog/2017/img/DSC_0016es.jpg
 ---
 ![](/blog/2017/img/DSC_0016es.jpg)
 

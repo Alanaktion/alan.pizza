@@ -2,6 +2,7 @@
 title: Tombstone Pepperoni & Sausage
 date: 2017-03-02
 tags: ["frozen", "tombstone"]
+image: /blog/2017/img/DSC_1219-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1219-1024x678.jpg)
 

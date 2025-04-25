@@ -2,6 +2,7 @@
 title: Digiorno Thin & Crispy Three Meat
 date: 2017-03-21
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_1332-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1332-1024x678.jpg)
 

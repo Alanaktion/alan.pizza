@@ -2,6 +2,7 @@
 title: Smores – Pizza Pie Cafe August Pizza of the Month
 date: 2017-08-11
 tags: ["dine-in", "pizza-pie-cafe"]
+image: /blog/2017/img/20170811_122614-1024x768.jpg
 ---
 ![](/blog/2017/img/20170811_122614-1024x768.jpg)
 

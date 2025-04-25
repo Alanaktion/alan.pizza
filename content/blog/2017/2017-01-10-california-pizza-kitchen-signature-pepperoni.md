@@ -2,6 +2,7 @@
 title: California Pizza Kitchen – Signature Pepperoni
 date: 2017-01-10
 tags: ["frozen", "california-pizza-kitchen"]
+image: /blog/2017/img/IMG_20170110_201153.jpg
 ---
 ![](/blog/2017/img/IMG_20170110_201153.jpg)
 

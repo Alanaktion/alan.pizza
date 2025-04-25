@@ -2,6 +2,7 @@
 title: Sam's Choice Stuffed Crust 5-Meat Pizza
 date: 2017-10-20
 tags: ["frozen", "sams-choice"]
+image: /blog/2017/img/DSC_4855-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_4855-1024x678.jpg)
 

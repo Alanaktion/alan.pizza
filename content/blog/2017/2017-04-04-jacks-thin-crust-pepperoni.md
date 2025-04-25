@@ -2,6 +2,7 @@
 title: Jack's Thin Crust Pepperoni
 date: 2017-04-04
 tags: ["frozen", "jacks"]
+image: /blog/2017/img/DSC_1426-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1426-1024x678.jpg)
 

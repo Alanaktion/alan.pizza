@@ -2,6 +2,7 @@
 title: Pacific Wheel Pizza Co. – Pepperoni and Sausage
 date: 2017-10-06
 tags: ["dine-in"]
+image: /blog/2017/img/20171005_1420370-1024x768.jpg
 ---
 ![](/blog/2017/img/20171005_1420370-1024x768.jpg)
 

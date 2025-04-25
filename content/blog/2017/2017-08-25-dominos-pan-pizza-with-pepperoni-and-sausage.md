@@ -2,6 +2,7 @@
 title: Domino's Pan Pizza with Pepperoni and Sausage
 date: 2017-08-25
 tags: ["take-out", "dominos"]
+image: /blog/2017/img/DSC_2385-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2385-1024x678.jpg)
 

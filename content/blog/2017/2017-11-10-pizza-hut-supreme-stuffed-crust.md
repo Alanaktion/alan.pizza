@@ -2,6 +2,7 @@
 title: Pizza Hut – Supreme Stuffed Crust
 date: 2017-11-10
 tags: ["take-out", "pizza-hut"]
+image: /blog/2017/img/MVIMG_20171110_191952-1024x768.jpg
 ---
 ![](/blog/2017/img/MVIMG_20171110_191952-1024x768.jpg)
 

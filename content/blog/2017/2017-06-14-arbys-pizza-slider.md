@@ -2,6 +2,7 @@
 title: Arby's Pizza Slider
 date: 2017-06-10
 tags: ["dine-in"]
+image: /blog/2017/img/20170614_122716-1024x768.jpg
 ---
 ![](/blog/2017/img/20170614_122716-1024x768.jpg)
 

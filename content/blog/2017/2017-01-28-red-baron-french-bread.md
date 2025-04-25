@@ -2,6 +2,7 @@
 title: Red Baron French Bread Singles
 date: 2017-01-28
 tags: ["frozen", "red-baron"]
+image: /blog/2017/img/DSC_0025.jpg
 ---
 ![](/blog/2017/img/DSC_0025.jpg)
 

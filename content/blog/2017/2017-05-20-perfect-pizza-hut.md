@@ -2,6 +2,7 @@
 title: Perfect Pizza Hut
 date: 2017-05-20
 tags: ["take-out", "pizza-hut"]
+image: /blog/2017/img/DSC_1539-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1539-1024x678.jpg)
 

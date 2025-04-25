@@ -2,6 +2,7 @@
 title: Sam's Club Rising Crust Pepperoni
 date: 2017-06-02
 tags: ["frozen", "sams-club"]
+image: /blog/2017/img/DSC_1639-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1639-1024x678.jpg)
 

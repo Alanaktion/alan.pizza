@@ -2,6 +2,7 @@
 title: DiGiorno Three Meat Stuffed Crust
 date: 2017-01-27
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_0022e.jpg
 ---
 ![](/blog/2017/img/DSC_0022e.jpg)
 

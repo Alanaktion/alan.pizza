@@ -2,6 +2,7 @@
 title: Pizzeria Limone – Pepperoni
 date: 2017-06-10
 tags: ["dine-in", "pizzeria-limone"]
+image: /blog/2017/img/20170627_123725-1024x768.jpg
 ---
 ![](/blog/2017/img/20170627_123725-1024x768.jpg)
 

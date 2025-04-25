@@ -2,6 +2,7 @@
 title: California Pizza Kitchen Margherita
 date: 2017-03-05
 tags: ["frozen", "california-pizza-kitchen", "vegetarian"]
+image: /blog/2017/img/DSC_1233-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1233-1024x678.jpg)
 

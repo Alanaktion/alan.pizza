@@ -2,6 +2,7 @@
 title: Kirkland Signature Thin Crust Pepperoni Pizza
 date: 2017-07-31
 tags: ["frozen", "kirkland-signature"]
+image: /blog/2017/img/DSC_2353-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2353-1024x678.jpg)
 

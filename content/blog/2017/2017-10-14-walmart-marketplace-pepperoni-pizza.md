@@ -2,6 +2,7 @@
 title: Walmart Marketplace Pepperoni Pizza
 date: 2017-10-14
 tags: ["take-and-bake", "walmart-marketplace"]
+image: /blog/2017/img/DSC_4820-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_4820-1024x678.jpg)
 

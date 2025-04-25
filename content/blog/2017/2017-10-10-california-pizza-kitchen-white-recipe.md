@@ -2,6 +2,7 @@
 title: California Pizza Kitchen White Recipe
 date: 2017-10-10
 tags: ["frozen", "california-pizza-kitchen"]
+image: /blog/2017/img/DSC_4802-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_4802-1024x678.jpg)
 

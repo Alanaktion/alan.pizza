@@ -2,6 +2,7 @@
 title: Dominos Pepperoni & Sausage
 date: 2017-01-15
 tags: ["take-out", "dominos"]
+image: /blog/2017/img/DSC_0932e.jpg
 ---
 ![](/blog/2017/img/DSC_0932e.jpg)
 

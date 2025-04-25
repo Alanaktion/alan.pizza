@@ -2,6 +2,7 @@
 title: Digiorno Thin Crust Four Meat
 date: 2017-04-18
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_1462-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1462-1024x678.jpg)
 

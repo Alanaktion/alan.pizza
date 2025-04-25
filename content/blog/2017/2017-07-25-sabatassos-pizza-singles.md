@@ -2,6 +2,7 @@
 title: Sabatasso's Pizza Singles
 date: 2017-07-25
 tags: ["frozen", "sabatassos"]
+image: /blog/2017/img/DSC_2336-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2336-1024x678.jpg)
 

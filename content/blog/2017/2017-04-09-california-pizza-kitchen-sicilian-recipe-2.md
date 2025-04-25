@@ -2,6 +2,7 @@
 title: California Pizza Kitchen – Sicilian Recipe
 date: 2017-04-09
 tags: ["frozen", "california-pizza-kitchen"]
+image: /blog/2017/img/DSC_1438-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1438-1024x678.jpg)
 

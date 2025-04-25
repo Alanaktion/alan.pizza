@@ -2,6 +2,7 @@
 title: Little Caesar's – Extra Most Bestest
 date: 2017-11-13
 tags: ["take-out", "little-caesars"]
+image: /blog/2017/img/MVIMG_20171113_1247002-1024x768.jpg
 ---
 ![](/blog/2017/img/MVIMG_20171113_1247002-1024x768.jpg)
 

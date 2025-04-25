@@ -2,6 +2,7 @@
 title: Thin Crust Pepperoni Pizza
 date: 2017-06-24
 tags: ["frozen"]
+image: /blog/2017/img/DSC_2198-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2198-1024x678.jpg)
 

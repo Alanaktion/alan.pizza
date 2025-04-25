@@ -2,6 +2,7 @@
 title: Red Baron Thin & Crispy Pepperoni
 date: 2017-08-31
 tags: ["frozen", "red-baron"]
+image: /blog/2017/img/DSC_2394-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2394-1024x678.jpg)
 

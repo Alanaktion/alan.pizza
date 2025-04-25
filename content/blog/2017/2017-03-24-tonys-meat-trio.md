@@ -2,6 +2,7 @@
 title: Tony's Meat-Trio
 date: 2017-03-24
 tags: ["frozen", "tonys"]
+image: /blog/2017/img/DSC_1415-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1415-1024x678.jpg)
 

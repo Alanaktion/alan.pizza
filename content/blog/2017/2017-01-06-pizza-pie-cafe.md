@@ -2,6 +2,7 @@
 title: Pizza Pie Cafe, Highland UT
 date: 2017-01-06
 tags: ["dine-in"]
+image: /blog/2017/img/IMG_20170106_125030.jpg
 ---
 ![](/blog/2017/img/IMG_20170106_125030.jpg)
 

@@ -2,6 +2,7 @@
 title: Wild Mike's Ultimate Pizza – Combination
 date: 2017-07-07
 tags: ["frozen", "wild-mikes"]
+image: /blog/2017/img/DSC_2223-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_2223-1024x678.jpg)
 

@@ -2,6 +2,7 @@
 title: DiGiorno Thin Crispy Crust
 date: 2017-01-24
 tags: ["frozen", "digiorno"]
+image: /blog/2017/img/DSC_1063.jpg
 ---
 ![](/blog/2017/img/DSC_1063.jpg)
 

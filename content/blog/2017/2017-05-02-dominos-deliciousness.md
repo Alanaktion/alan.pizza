@@ -2,6 +2,7 @@
 title: Domino's Deliciousness
 date: 2017-05-02
 tags: ["take-out", "dominos"]
+image: /blog/2017/img/DSC_1523-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1523-1024x678.jpg)
 

@@ -2,6 +2,7 @@
 title: Pepperoni Pizza Lunchables
 date: 2017-01-09
 tags: ["lunchables"]
+image: /blog/2017/img/IMG_20170109_184526s.jpg
 ---
 ![](/blog/2017/img/IMG_20170109_184526s.jpg)
 

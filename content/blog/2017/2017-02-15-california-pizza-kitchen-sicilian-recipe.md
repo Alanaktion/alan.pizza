@@ -2,6 +2,7 @@
 title: California Pizza Kitchen – Sicilian Recipe
 date: 2017-02-15
 tags: ["frozen", "california-pizza-kitchen"]
+image: /blog/2017/img/DSC_1176-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1176-1024x678.jpg)
 
@@ -13,6 +14,6 @@ The spicy ham and salami with mozzarella and Fontina cheese is a delicious combi
 
 {%- css %}{% include "public/css/circle-video.css" %}{% endcss %}
 <video class="circle-video" loop="1" autoplay="1" preload="metadata" muted>
-<source type="video/webm" src="/blog/2017/img/cpk-baking.webm">
-<source type="video/mp4" src="/blog/2017/img/cpk-baking.mp4">
+<source type="video/webm" src="/video/cpk-baking.webm">
+<source type="video/mp4" src="/video/cpk-baking.mp4">
 </video>

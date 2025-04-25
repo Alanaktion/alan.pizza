@@ -2,6 +2,7 @@
 title: Pier 49 Pizza, American Fork UT
 date: 2017-01-13
 tags: ["dine-in", "pier-49"]
+image: /blog/2017/img/DSC_0017es.jpg
 ---
 ![](/blog/2017/img/DSC_0017es.jpg)
 

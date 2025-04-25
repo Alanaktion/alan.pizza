@@ -2,6 +2,7 @@
 title: Pizza Hut Stuffed Crust Pepperoni and Sausage
 date: 2017-12-09
 tags: ["take-out", "pizza-hut"]
+image: /blog/2017/img/IMG_20171209_191113-1024x768.jpg
 ---
 ![](/blog/2017/img/IMG_20171209_191113-1024x768.jpg)
 

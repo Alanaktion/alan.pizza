@@ -2,6 +2,7 @@
 title: Chuck E Cheese Pepperoni
 date: 2017-06-10
 tags: ["dine-in", "chuck-e-cheese"]
+image: /blog/2017/img/20170610_113240-1024x768.jpg
 ---
 ![](/blog/2017/img/20170610_113240-1024x768.jpg)
 

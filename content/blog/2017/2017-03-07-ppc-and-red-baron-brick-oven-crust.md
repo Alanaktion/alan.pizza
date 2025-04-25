@@ -2,6 +2,7 @@
 title: PPC and Red Baron Brick Oven Crust
 date: 2017-03-07
 tags: ["dine-in", "frozen", "pizza-pie-cafe", "red-baron"]
+image: /blog/2017/img/DSC_1250-1024x678.jpg
 ---
 ![](/blog/2017/img/DSC_1250-1024x678.jpg)
 
