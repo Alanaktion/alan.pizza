@@ -334,3 +334,16 @@ img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* Top Pizzas image positions */
+@media (min-width: 560px) {
+  #top-pizzas ~ p img {
+    float: left;
+    max-width: 240px;
+    margin-right: 1em;
+  }
+}
+.clear {
+  clear: both;
+  margin-bottom: 0.5em;
+}
