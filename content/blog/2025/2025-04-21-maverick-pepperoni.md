@@ -6,9 +6,9 @@ image: /blog/2025/img/IMG_0061.jpg
 ---
 <div class="img-grid">
 
-![](/blog/2025/img/IMG_0061.jpg)
+![Photo of a slice of pepperoni pizza on a cardboard tray.](/blog/2025/img/IMG_0061.jpg)
 
-![](/blog/2025/img/IMG_0062.jpg)
+![Photo of cheese breadsticks in a cardboard box.](/blog/2025/img/IMG_0062.jpg)
 
 </div>
 
