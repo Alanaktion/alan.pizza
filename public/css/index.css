@@ -3,25 +3,41 @@
   --font-family: 'Noto Serif', 'Georgia', 'Cambria', ui-serif, serif, var(--font-emoji);
   --font-family-display: 'Hoefler Text', 'Playfair Display', 'Noto Serif Display', var(--font-family);
 
-  --text-color: #1c1c1c;
-  --text-color-muted: #5c5856;
-  --muted-color: #e0e0e0;
-  --background-color: #fff;
-  --body-background-color: #f7f3f0;
+  --font-system-ui: system-ui, sans-serif;
+  --font-transitional: Charter, Bitstream Charter, Sitka Text, Cambria, serif;
+  --font-old-style: Iowan Old Style, Palatino Linotype, URW Palladio L, P052, serif;
+  --font-humanist: Seravek, Gill Sans Nova, Ubuntu, Calibri, DejaVu Sans, source-sans-pro, sans-serif;
+  --font-geometric-humanist: Avenir, Montserrat, Corbel, URW Gothic, source-sans-pro, sans-serif;
+  --font-classical-humanist: Optima, Candara, Noto Sans, source-sans-pro, sans-serif;
+  --font-neo-grotesque: Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial, sans-serif;
+  --font-monospace-slab-serif: Nimbus Mono PS, Courier New, monospace;
+  --font-monospace-code: Dank Mono, Operator Mono, Inconsolata, Fira Mono, ui-monospace, SF Mono,Monaco, Droid Sans Mono, Source Code Pro, Cascadia Code,Menlo, Consolas, DejaVu Sans Mono, monospace;
+  --font-industrial: Bahnschrift, DIN Alternate, Franklin Gothic Medium, Nimbus Sans Narrow, sans-serif-condensed, sans-serif;
+  --font-rounded-sans: ui-rounded, Hiragino Maru Gothic ProN, Quicksand, Comfortaa, Manjari, Arial Rounded MT, Arial Rounded MT Bold, Calibri, source-sans-pro, sans-serif;
+  --font-slab-serif: Rockwell, Rockwell Nova, Roboto Slab, DejaVu Serif, Sitka Small, serif;
+  --font-antique: Superclarendon, Bookman Old Style, URW Bookman, URW Bookman L, Georgia Pro, Georgia, serif;
+  --font-didone: Didot, Bodoni MT, Noto Serif Display, URW Palladio L, P052, Sylfaen, serif;
+  --font-handwritten: Segoe Print, Bradley Hand, Chilanka, TSCu_Comic, casual, cursive;
+
+  --text-color: #1a1512;
+  --text-color-muted: #7a6e66;
+  --muted-color: #e8ddd4;
+  --background-color: #fdfbf9;
+  --body-background-color: #f5efe9;
 
   --text-color-link: var(--text-color);
-  --text-color-link-active: #661f31;
+  --text-color-link-active: #b83a20;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: #dad8d8;
-    --text-color-muted: #aba6a5;
-    --muted-color: #526979;
-    --background-color: #1d2833;
-    --body-background-color: #12181f;
+    --text-color: #f0e6d8;
+    --text-color-muted: #b5a48c;
+    --muted-color: #3d3229;
+    --background-color: #2a2119;
+    --body-background-color: #1c1610;
 
-    --text-color-link-active: #9c9cd3;
+    --text-color-link-active: #e8a04a;
   }
 }
 
@@ -41,15 +57,18 @@ body {
   margin: 0 auto;
   font-family: var(--font-family);
   color: var(--text-color);
+}
+body {
   background-color: var(--body-background-color);
+  letter-spacing: 0.01em;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(180deg, var(--body-background-color) 0%, #231c14 100%);
+  }
 }
 html {
   overflow-y: scroll;
-}
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -77,9 +96,16 @@ h1:has(+ .subheading) {
 .subheading {
   font-style: italic;
   color: var(--text-color-muted);
+  letter-spacing: 0.03em;
 }
 h1 + .subheading {
   margin-block-end: 2em;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-didone);
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 li {
@@ -92,6 +118,11 @@ a[href] {
 a[href]:hover,
 a[href]:active {
   color: var(--text-color-link-active);
+}
+@media (prefers-color-scheme: dark) {
+  a[href] {
+    transition: color 0.2s ease;
+  }
 }
 
 img {
@@ -147,6 +178,7 @@ img {
   margin: 1em 0;
   background-color: var(--background-color);
   border: 1px solid var(--muted-color);
+  border-radius: 4px;
 }
 @media (min-width: 900px) {
   .post {
@@ -161,6 +193,11 @@ img {
 }
 .post-content {
   padding: 1em;
+}
+@media (prefers-color-scheme: dark) {
+  .post {
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+  }
 }
 .post-content img {
   margin-left: -1em;
@@ -179,12 +216,17 @@ img {
   position: relative;
 }
 .post-content blockquote::before {
-  content: '“';
+  content: '"';
   position: absolute;
   left: -0.5em;
   top: -0.1em;
   opacity: 0.5;
   font-size: 3em;
+}
+@media (prefers-color-scheme: dark) {
+  .post-content blockquote::before {
+    color: #e8a04a;
+  }
 }
 
 .links-nextprev {
@@ -218,8 +260,9 @@ img {
 }
 .home-link {
   font-size: 2em;
-  font-weight: 700;
-  font-family: var(--font-family-display);
+  font-weight: 300;
+  font-family: var(--font-antique);
+  letter-spacing: -0.02em;
 }
 @media (min-width: 900px) {
   .home-link {
@@ -228,6 +271,11 @@ img {
 }
 .home-link:link:not(:hover) {
   text-decoration: none;
+}
+@media (prefers-color-scheme: dark) {
+  .home-link {
+    color: #f0d4a8;
+  }
 }
 
 /* Nav */
@@ -241,6 +289,14 @@ img {
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
+@media (prefers-color-scheme: dark) {
+  .nav a[href] {
+    color: var(--text-color-muted);
+  }
+  .nav a[href]:hover {
+    color: #e8a04a;
+  }
+}
 .nav a[href][aria-current="page"] {
   text-decoration: underline;
 }
@@ -250,6 +306,11 @@ img {
   background-color: var(--background-color);
   border-top: 1px solid var(--muted-color);
   text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+  .site-footer {
+    background-color: #231c14;
+  }
 }
 
 /* Posts list */
@@ -262,6 +323,7 @@ img {
 .postlist-item {
   background-color: var(--background-color);
   border-bottom: 1px dashed var(--muted-color);
+  border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -269,9 +331,14 @@ img {
   padding: 0.5em 1em;
   margin-bottom: 1em;
 }
+@media (prefers-color-scheme: dark) {
+  .postlist-item {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+}
 .postlist-date {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--text-color);
+  color: var(--text-color-muted);
   word-spacing: -0.5px;
 }
 .postlist-link {
@@ -333,6 +400,12 @@ img {
 .photolist img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 3px;
+}
+@media (prefers-color-scheme: dark) {
+  .photolist img {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  }
 }
 
 /* Top Pizzas image positions */
