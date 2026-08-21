@@ -9,6 +9,9 @@
         {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
         <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
         {%- endfor %}
+        {%- if author %}
+        <li class="author"><i>Guest post by {{ author }}</i></li>
+        {%- endif %}
       </ul>
     </header>
 

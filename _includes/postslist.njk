@@ -4,6 +4,9 @@
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <a href="{{ post.url }}" class="postlist-link">{{ post.data.title }}</a>
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    {%- if post.data.author %}
+    <i class="author">Guest post by {{ post.data.author }}</i>
+    {%- endif %}
   </li>
 {% endfor %}
 </ol>

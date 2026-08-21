@@ -5,6 +5,7 @@ export default function(data) {
   // Draft content, validate `draft` front matter
   let result = z.object({
     draft: z.boolean().optional(),
+    author: z.string().optional(),
   }).safeParse(data);
 
   if(result.error) {

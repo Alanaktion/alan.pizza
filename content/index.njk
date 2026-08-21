@@ -14,12 +14,12 @@ const pagination = {
 ---
 {% for post in posts %}
 {% set title = post.data.title %}
+{% set author = post.data.author %}
 {% set tags = post.data.tags %}
 {% set content = post.content %}
 {% include "post.njk" %}
 {% endfor %}
 
-{# TODO: infinite scrolling #}
 <script type="application/json" data-infinite>
 {{ pagination.links | json | safe }}
 </script>

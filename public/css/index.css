@@ -367,7 +367,7 @@ img {
 
 /* Tags list */
 .post-metadata {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   gap: .5em;
   list-style: none;
@@ -376,6 +376,9 @@ img {
 }
 .post-metadata time {
   margin-right: 1em;
+}
+.author {
+  margin-left: auto;
 }
 
 /* Photos list */
