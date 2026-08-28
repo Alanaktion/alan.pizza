@@ -1,6 +1,6 @@
 ---
 title: Little Caesars - Pretzel Crust with Cheese Sauce
-date: 2026-06-13
+date: 2026-08-21
 tags: ["take-out", "little-caesars"]
 image: /blog/2026/img/003DF45E-sm.jpeg
 author: David
