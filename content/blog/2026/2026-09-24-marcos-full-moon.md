@@ -20,3 +20,5 @@ Next is the Pepperoni Magnifico, which combines their standard pepperoni and Old
 Last is the CheezyBread. It's okay. I feel like there's a wide range of cheese breadsticks at pizza places, and most of them are just… fine. It's not *bad* but it's just some thick pizza dough with a little bit of cheese on top. They include ranch and pizza sauce with the bread, so yeah.
 
 Overall, while Marco's is typically more expensive than I'd consider "worth it", at 50% off for all menu-priced items, it's a great deal on great pizza.
+
+The remaining full moons for 2026 to get this deal are **October 26th**, **November 24th**, and **December 23rd**.
