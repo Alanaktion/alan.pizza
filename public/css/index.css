@@ -312,6 +312,18 @@ img {
     background-color: #231c14;
   }
 }
+.donate_button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid var(--muted-color);
+  border-radius: 4px;
+  background-color: var(--body-background-color);
+  text-decoration: none;
+}
+.donate_button:hover,
+.donate_button:focus-visible {
+  border-color: var(--text-color-link-active);
+}
 
 /* Posts list */
 .postlist {
